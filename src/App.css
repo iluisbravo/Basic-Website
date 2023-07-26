@@ -1,0 +1,206 @@
+body {
+  color: #4a4a4a;
+  background-color: #ebe9e9;
+  padding: 20px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.show {
+  display: block !important;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  /* grid-template-rows: auto; */
+  gap: 20px;
+}
+
+.box {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px 10px;
+}
+
+.btn-menu {
+  background-image: linear-gradient(
+    to right,
+    #00c364,
+    #2ec65e,
+    #44c958,
+    #56cb52,
+    #66ce4c,
+    #63cd51,
+    #60cb55,
+    #5dca59,
+    #48c467,
+    #33be72,
+    #1cb87c,
+    #00b184
+  );
+  border-radius: 100%;
+  height: 30px;
+  width: 30px;
+  color: white;
+  padding: 10px;
+  display: none;
+  margin-bottom: 20px;
+}
+
+.centerItems {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.col-1 {
+  grid-column: span 1;
+}
+
+.col-2 {
+  grid-column: span 2;
+}
+
+.col-3 {
+  grid-column: span 3;
+}
+
+.col-4 {
+  grid-column: span 4;
+}
+
+.col-5 {
+  grid-column: span 5;
+}
+
+.col-6 {
+  grid-column: span 6;
+}
+
+.col-7 {
+  grid-column: span 7;
+}
+
+.col-8 {
+  grid-column: span 8;
+}
+
+.col-9 {
+  grid-column: span 9;
+}
+
+.col-10 {
+  grid-column: span 10;
+}
+
+.col-11 {
+  grid-column: span 11;
+}
+
+.col-12 {
+  grid-column: span 12;
+}
+
+.header {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+.logo {
+  /* background-color: rgb(121, 209, 67); */
+  background-image: linear-gradient(
+    to right,
+    #00c364,
+    #2ec65e,
+    #44c958,
+    #56cb52,
+    #66ce4c,
+    #63cd51,
+    #60cb55,
+    #5dca59,
+    #48c467,
+    #33be72,
+    #1cb87c,
+    #00b184
+  );
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+.logo-text {
+  color: #ebe9e9;
+  font-weight: bold;
+}
+
+.ps-sidebar-container {
+  background-color: white !important;
+}
+
+.sidebar {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+.sidebar svg {
+  height: 24px !important;
+}
+
+.sidebar .menu-title {
+  font-size: 14px;
+  font-weight: bold;
+  padding: 0 20px;
+  opacity: 0.6;
+}
+
+.main {
+}
+
+.footer {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+.indicador {
+  min-height: 20vh;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+  /* estilos para pantallas pequeñas */
+  .col-1,
+  .col-2,
+  .col-3,
+  .col-4,
+  .col-5,
+  .col-6,
+  .col-7,
+  .col-8,
+  .col-9,
+  .col-10,
+  .col-11,
+  .col-12 {
+    grid-column: span 12;
+  }
+
+  .btn-menu {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 1200;
+  }
+
+}
+
